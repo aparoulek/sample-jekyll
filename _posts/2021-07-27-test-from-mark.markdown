@@ -3,6 +3,7 @@ layout: post
 title:  "Test from Mark?!?!"
 date:   2020-07-27 13:14:20 -0400
 categories: jekyll update
+author: Aaron
 ---
 You'll never find this in your `_posts` directory. I've moved it!!
 
@@ -21,6 +22,8 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+Author: {{ page.author }}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
